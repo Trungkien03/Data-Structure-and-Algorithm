@@ -63,8 +63,12 @@ func groupAnagrams1(_ strs: [String]) -> [[String]] {
         }
         
         return Array(map.values)
-    }
+}
 
 
-
-print(groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
+protocol Berry {
+    var color: String { get }
+}
+class Blueberry: Berry {
+    let color = "blue"
+}
